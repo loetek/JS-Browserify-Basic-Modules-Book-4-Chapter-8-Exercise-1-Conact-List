@@ -1,0 +1,38 @@
+{
+  "name": "nss-modular-application",
+  "version": "1.0.0",
+  "description": "Broweserify Basics",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=`pwd`/node_modules grunt"
+  },
+  "author": "JD Wheeler",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "grunt": "^1.0.3",
+    "grunt-bg-shell": "^2.3.3",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-http-server": "^2.1.0",
+    "load-grunt-config": "^0.19.2",
+    "nss-domcomponent": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/loetek/JS-Browserify-Basic-Modules-Book-4-Chapter-8-Exercise-1-Conact-List.git"
+  },
+  "keywords": [
+    "Browserify",
+    "Basics"
+  ],
+  "bugs": {
+    "url": "https://github.com/loetek/JS-Browserify-Basic-Modules-Book-4-Chapter-8-Exercise-1-Conact-List/issues"
+  },
+  "homepage": "https://github.com/loetek/JS-Browserify-Basic-Modules-Book-4-Chapter-8-Exercise-1-Conact-List#readme"
+}
